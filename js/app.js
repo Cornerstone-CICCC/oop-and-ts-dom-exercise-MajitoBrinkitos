@@ -76,5 +76,10 @@ class Calculator {
 
 //Instances
 document.addEventListener('DOMContentLoaded', () => {
-    const myCalculator = new Calculator()
+    const myCalculator = new Calculator();
+
+    console.log('Your result is:', myCalculator.getResult());
+
+    myCalculator.calculateBtn.click();
+    console.log('Result:', myCalculator.getResult());
 })
