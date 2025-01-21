@@ -44,7 +44,7 @@ class Calculator {
         const num2 = parseFloat(this.inputNum2.value)
         const operation = this.selectOperation.value
 
-        let results
+        let result
 
         //calculator logic
         switch(operation) {
